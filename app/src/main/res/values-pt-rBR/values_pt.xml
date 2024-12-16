@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Nome do App -->
+    <string name="app_name">Xuu - Diamonds RBX Skins</string>
+
+    <!-- Strings da Barra de Ferramentas -->
+    <string name="toolbar_about">Sobre o App</string>
+
+    <string name="alterar_idiomas" tools:ignore="ExtraTranslation">Alterar Idiomas</string>
+
+    <!-- Strings da Página Principal -->
+    <string name="my_points">Meus Pontos:</string>
+    <string name="zero">0</string>
+    <string name="daily_gift">Presente Diário</string>
+    <string name="spin_to_win">Gire  Ganhe</string>
+    <string name="watch_video">Assistir Vídeo</string>
+    <string name="short_ads">Ads Curtos</string>
+    <string name="gift_points">10</string>
+    <string name="spin_points">Casual</string>
+    <string name="video_points">20</string>
+    <string name="short_ads_points">10</string>
+
+
+    <!-- Strings do Menu -->
+    <string name="Instructions">Instruções</string>
+    <string name="achievements">Conquistas</string>
+    <string name="withdrawal">Retirada</string>
+    <string name="about_app">Sobre o App</string>
+    <string name="contact">Contato</string>
+
+    <!-- Strings de Instruções -->
+    <string name="Next">Próximo</string>
+    <string name="GOT_IT">Entendi</string>
+    <string name="NEXT">PRÓXIMO</string>
+
+    <!-- Strings Sobre o App -->
+    <string name="app_version">Versão:</string>
+    <string name="contact_us">Entre em Contato</string>
+    <string name="Share">Compartilhar com Amigos</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="our_website">Nosso Site</string>
+
+    <!-- Gire -->
+    <string name="spin_btn">Começar a Girar</string>
+    <string name="nothing_yet">Nada ainda</string>
+    <string name="you_win">Você Ganhou</string>
+    <string name="points">Pontos</string>
+
+    <!-- Presente Diário -->
+    <string name="get_your_daily_gift">Receba seu Presente Diário</string>
+    <string name="get_my_gift">Receber Meu Presente</string>
+
+    <!-- Avalie o App -->
+    <string name="Rate_Title">Avalie o app com 5 estrelas :)</string>
+
+    <!-- Atividade de Splash -->
+    <string name="splash_try_again">Tentar Novamente</string>
+    <string name="splash_no_internet">Sem Conexão com a Internet</string>
+    <string name="no_internet_msg">Conecte-se à internet e tente novamente.</string>
+    <string name="developed_by">Desenvolvido por: KmkD3evs</string>
+
+    <!-- Atividade de Retirada -->
+    <string name="convert_points">Converta seus pontos em dinheiro:</string>
+    <string name="Withdrawal">Retirada</string>
+    <string name="converter">É = 0 $</string>
+    <string name="my_balance">Meu Saldo:</string>
+    <string name="minimum_points">* Pontos mínimos para retirada são</string>
+    <string name="withdrawal_wallet">PayPal</string>
+    <string name="withdrawal_method">Método:</string>
+    <string name="withdrawal_request">Solicitação de Retirada</string>
+    <string name="withdrawal_send">Enviar Retirada</string>
+    <string name="email_address">Endereço de E-mail</string>
+    <string name="your_email">Seu E-mail:</string>
+    <string name="enter_email">Digite Seu E-mail</string>
+    <string name="success">Sucesso</string>
+    <string name="dont_have_min">Você não atingiu o mínimo para retirada!</string>
+    <string name="no_points_enough">Você não tem pontos suficientes!</string>
+
+    <!-- Atividade de Conquistas -->
+    <string name="view_50_video_ads">Assista 50 vídeos</string>
+    <string name="view_100_video_ads">Assista 100 vídeos</string>
+    <string name="spin_50_times">Gire 50 vezes</string>
+    <string name="not_completed">Ainda Não Completado</string>
+    <string name="completed">Completado</string>
+    <string name="uncompleted">Não Completado</string>
+
+    <!-- Texto de Compartilhar App -->
+    <string name="Share_Text">O melhor app para ganhar dinheiro com seu telefone. Baixe agora: \n</string>
+
+    <!-- Descrição do Conteúdo -->
+    <string name="close">Fechar</string>
+    <string name="menu">Menu</string>
+    <string name="logo">Logotipo</string>
+
+    <!-- Outros -->
+    <string name="text">Texto</string>
+    <string name="test_text">Teste de Texto \n Nova Linha Aqui</string>
+    <string name="no_ads">Sem anúncios agora, tente novamente!</string>
+    <string name="ads_failed">Falha ao exibir anúncio!</string>
+    <string name="ads_failed_load">Falha ao carregar anúncio!</string>
+
+    <!-- ================= Array ================== -->
+    <string-array name="about_title_array">
+        <item>Gire para Ganhar</item>
+        <item>Assista Vídeo</item>
+        <item>Presente Diário</item>
+        <item>Retirada</item>
+    </string-array>
+
+    <string-array name="about_description_array">
+        <item>Sua sorte é importante aqui, você receberá pontos aleatórios toda vez que girar.</item>
+        <item>Assista vídeos ilimitados todos os dias para ganhar mais pontos. Se você fechar o vídeo antes que termine, não receberá pontos.</item>
+        <item>Abra o app diariamente para ganhar presentes e acumular mais pontos.</item>
+        <item>Você receberá $5 para cada 500.000 pontos acumulados. O pagamento será enviado em 7–15 dias. Se trapacear, será banido.</item>
+    </string-array>
+
+
+    <!-- Scratch -->
+    <string name="play_now">Jogar Agora</string>
+    <string name="scraping">Raspe Ganhe</string>
+    <string name="scratch_again">Raspe Novamente</string>
+    <string name="you_won">Você Ganhou \n</string>
+    <string name="you_have_won">Você Ganhou:</string>
+    <string name="watch_full_video">Assista ao Vídeo Completo</string>
+    <string name="unlock_reward">Para Desbloquear estes Pontos de Recompensa</string>
+    <string name="add">Adicionar</string>
+    <string name="congratulation">Parabéns</string>
+    <string name="play_again">Jogar Novamente</string>
+    <string name="go_home">Ir para a Página Inicial</string>
+    <string name="best_score">Melhor Pontuação</string>
+    <string name="score">Pontuação</string>
+    <string name="game_over">Fim de Jogo</string>
+
+
+</resources>

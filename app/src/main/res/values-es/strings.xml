@@ -1,0 +1,132 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Xuu - Diamonds RBX  Skins</string>
+
+    <!-- Toolbar Strings -->
+    <string name="toolbar_about">Acerca de la aplicación</string>
+
+    <!-- Strings of Main Page -->
+    <string name="my_points">Mis puntos:</string>
+    <string name="zero">0</string>
+    <string name="daily_gift">Regalo diario</string>
+    <string name="spin_to_win">Gira y Gana</string>
+    <string name="watch_video">Ver video</string>
+    <string name="short_ads">Ads cortos</string>
+    <string name="gift_points">10</string>
+    <string name="spin_points">Azar</string>
+    <string name="video_points">20</string>
+    <string name="short_ads_points">10</string>
+
+    <!-- Strings of Menu -->
+    <string name="Instructions">Instrucciones</string>
+    <string name="achievements">Logros</string>
+    <string name="withdrawal">Retiro</string>
+    <string name="about_app">Acerca de la aplicación</string>
+    <string name="contact">Contacto</string>
+
+    <!-- Strings of Instructions -->
+    <string name="Next">Próximo</string>
+    <string name="GOT_IT">Entiendo</string>
+    <string name="NEXT">PRÓXIMO</string>
+
+    <!-- Strings of About App -->
+    <string name="app_version">Versión:</string>
+    <string name="contact_us">Contacta con nosotros</string>
+    <string name="Share">Compartir con amigos</string>
+    <string name="privacy_policy">política de privacidad</string>
+    <string name="our_website">Nuestra página web</string>
+
+    <!-- Spin -->
+    <string name="spin_btn">Iniciar giro</string>
+    <string name="nothing_yet">nada aún</string>
+    <string name="you_win">Ganaste</string>
+    <string name="points">Puntos</string>
+
+    <!-- Daily Gift -->
+    <string name="get_your_daily_gift">Consigue tu regalo diario</string>
+    <string name="get_my_gift">Consigue mi regalo</string>
+
+    <!-- Rate App -->
+    <string name="Rate_Title">Califica la aplicación con 5 estrellas :)</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_try_again">Intentar otra vez</string>
+    <string name="splash_no_internet">Sin conexión a Internet</string>
+    <string name="no_internet_msg">Conéctese a Internet y vuelva a intentarlo.</string>
+    <string name="developed_by">Desarrollado por: KmkD3evs</string>
+
+    <!-- Withdrawal Activity -->
+    <string name="convert_points">Convierte tus puntos en dinero:</string>
+    <string name="Withdrawal">Retiro</string>
+    <string name="converter">Es = 0 $</string>
+    <string name="my_balance">Mi balance:</string>
+    <string name="minimum_points">* Los puntos mínimos para el retiro son</string>
+    <string name="withdrawal_wallet">PayPal</string>
+    <string name="withdrawal_method">Método:</string>
+    <string name="withdrawal_request">Solicitud de Retiro</string>
+    <string name="withdrawal_send">Enviar retiro</string>
+    <string name="email_address">Dirección de correo electrónico</string>
+    <string name="your_email">Tu correo electrónico:</string>
+    <string name="enter_email">Introduce tu correo electrónico</string>
+    <string name="success">Éxito</string>
+    <string name="dont_have_min">¡No tienes el retiro mínimo!</string>
+    <string name="no_points_enough">¡No tienes suficientes puntos!</string>
+
+    <!-- Achievements Activity -->
+    <string name="view_50_video_ads">Ver 50 anuncios de video</string>
+    <string name="view_100_video_ads">Ver 100 anuncios de video</string>
+    <string name="spin_50_times">Girar 50 veces</string>
+    <string name="not_completed">Aún no completado</string>
+    <string name="completed">Completado</string>
+    <string name="uncompleted">No completado</string>
+
+    <!-- Share App Text -->
+    <string name="Share_Text">La mejor aplicación para ganar dinero desde tu teléfono Descárgala ahora: \n</string>
+
+    <!-- content Description -->
+    <string name="close">Cerca</string>
+    <string name="menu">Menú</string>
+    <string name="logo">Logo</string>
+
+    <!-- Others -->
+    <string name="text">Texto</string>
+    <string name="test_text">Hello Text Test \n New Line Here</string>
+    <string name="no_ads">Sin anuncios ahora, ¡inténtalo de nuevo!</string>
+    <string name="ads_failed">¡El anuncio no se mostró!</string>
+    <string name="ads_failed_load">¡El anuncio no se pudo cargar!</string>
+
+
+    <!-- ================= Array ================== -->
+    <string-array name="about_title_array">
+        <item>Gira para ganar</item>
+        <item>Ver video</item>
+        <item>Regalo diario</item>
+        <item>Retiro</item>
+    </string-array>
+
+    <string-array name="about_description_array">
+        <item>Tu suerte es importante aquí, obtendrás puntos aleatorios cada vez que gires.</item>
+        <item>Mire videos ilimitados como desee todos los días para ganar más puntos. Si cerró el video antes de que termine, no obtendrá puntos.</item>
+        <item>Abra la aplicación todos los días para recibir regalos todos los días y ganar más puntos.</item>
+        <item>Recibirás $5 por cada 500.000 puntos que ganes. El pago se le enviará en un plazo de 7 a 15 días; si hace trampa, será baneado.</item>
+    </string-array>
+
+
+    <!-- Scratch -->
+    <string name="play_now">Jugar Ahora</string>
+    <string name="scraping">Raspa y Gana</string>
+    <string name="scratch_again">Raspar de Nuevo</string>
+    <string name="you_won">Has Ganado \n</string>
+    <string name="you_have_won">Has Ganado:</string>
+    <string name="watch_full_video">Ver Video Completo</string>
+    <string name="unlock_reward">Para Desbloquear estos Puntos de Recompensa</string>
+    <string name="add">Agregar</string>
+    <string name="congratulation">Felicitaciones</string>
+    <string name="play_again">Jugar de Nuevo</string>
+    <string name="go_home">Ir a Inicio</string>
+    <string name="best_score">Mejor Puntuación</string>
+    <string name="score">Puntuación</string>
+    <string name="game_over">Fin del Juego</string>
+
+
+</resources>

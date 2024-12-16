@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kmkz.xuuDiamondsRBXSkins.activities.MenuActivity"
+    android:background="@color/color_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:backgroundTint="@color/color_background"
+            android:background="@drawable/bg_menu">
+
+            <ImageView
+                android:id="@+id/rate_img"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/ic_star_rate"
+                android:padding="15dp"
+                app:tint="@color/white"
+                android:layout_gravity="center"
+                android:transitionName="imageTransition"
+                android:contentDescription="@string/close" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:backgroundTint="@color/color_background"
+            android:background="@drawable/bg_menu">
+
+            <ImageView
+                android:id="@+id/share_img"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/ic_share"
+                android:padding="15dp"
+                app:tint="@color/white"
+                android:layout_gravity="center"
+                android:transitionName="imageTransition"
+                android:contentDescription="@string/close" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:backgroundTint="@color/color_background"
+            android:background="@drawable/bg_menu">
+
+            <ImageView
+                android:id="@+id/close_img"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/ic_close"
+                android:padding="15dp"
+                app:tint="@color/white"
+                android:layout_gravity="center"
+                android:transitionName="imageTransition"
+                android:contentDescription="@string/close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/actionBarSize"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="9dp"
+            app:cardCornerRadius="9dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/color_background">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/logo"
+                android:padding="9dp"
+                android:src="@drawable/xuuicon" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_large" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:id="@+id/Instructions_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:srcCompat="@drawable/ic_instructions"
+                        app:tint="@color/amber_50"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font2"
+                        android:text="@string/Instructions"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey_5"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:id="@+id/Achievements_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="13dp"
+                        app:srcCompat="@drawable/achievements"
+                        app:tint="@color/amber_50"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font2"
+                        android:text="@string/achievements"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey_5"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:id="@+id/Withdrawal_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:srcCompat="@drawable/ic_withdrawal"
+                        app:tint="@color/amber_50"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font2"
+                        android:text="@string/withdrawal"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey_5"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:id="@+id/About_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:srcCompat="@drawable/ic_phone"
+                        app:tint="@color/amber_50"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font2"
+                        android:text="@string/about_app"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey_5"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:id="@+id/Contact_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:srcCompat="@drawable/ic_email"
+                        app:tint="@color/amber_50"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_background"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/font2"
+                        android:text="@string/contact"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grey_5"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

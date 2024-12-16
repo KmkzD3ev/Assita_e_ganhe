@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ScratchGameActivity"
+    android:background="@color/grey_5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curve_toolbar_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/close_img"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/close"
+            android:padding="15dp"
+            android:transitionName="imageTransition"
+            app:srcCompat="@drawable/ic_close"
+            app:tint="@color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2"
+            android:text="@string/spin_to_win"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_mxlarge" />
+
+    </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+        <com.applovin.mediation.ads.MaxAdView
+            xmlns:maxads="http://schemas.applovin.com/android/1.0"
+            android:id="@+id/MaxAdView"
+            maxads:adUnitId="YOUR_ID_HERE"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_xlarge">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bg_two"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icone_lucky_scratch"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/codeTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:fontFamily="@font/font2"/>
+            </LinearLayout>
+
+            <com.kmkz.xuuDiamondsRBXSkins.utility.ScratchCard
+                android:id="@+id/scratchCard"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="266dp"
+                android:layout_height="247dp"
+                android:onClick="ScratchImgClick"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icscratch"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <Button
+            android:id="@+id/btnScratchAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scratch_again"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font2"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_xlarge"
+            android:drawableEnd="@drawable/ic_replay"
+            app:drawableTint="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Xuu - Diamonds RBX  Skins</string>
+
+    <!-- Toolbar Strings -->
+    <string name="toolbar_about">About App</string>
+
+    <!-- Strings of Main Page -->
+    <string name="my_points">My Points:</string>
+    <string name="zero">0</string>
+    <string name="daily_gift">Daily Gift</string>
+    <string name="spin_to_win">Spin to Win</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="short_ads">Short Ads</string>
+    <string name="gift_points">10</string>
+    <string name="spin_points">Random</string>
+    <string name="video_points">20</string>
+    <string name="short_ads_points">10</string>
+
+    <!-- Strings of Menu -->
+    <string name="Instructions">Instructions</string>
+    <string name="achievements">Achievements</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="about_app">About App</string>
+    <string name="contact">Contact</string>
+
+    <!-- Strings of Instructions -->
+    <string name="Next">Next</string>
+    <string name="GOT_IT">Got It</string>
+    <string name="NEXT">NEXT</string>
+
+    <!-- Strings of About App -->
+    <string name="app_version">Version:</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="Share">Share with friends</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="our_website">Our Website</string>
+
+    <!-- Spin -->
+    <string name="spin_btn">Start Spin</string>
+    <string name="nothing_yet">nothing yet</string>
+    <string name="you_win">You Win</string>
+    <string name="points">Points</string>
+
+    <!-- Daily Gift -->
+    <string name="get_your_daily_gift">Get your Daily Gift</string>
+    <string name="get_my_gift">Get My Gift</string>
+
+    <!-- Rate App -->
+    <string name="Rate_Title">Rate the app 5 stars :)</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_try_again">Try Again</string>
+    <string name="splash_no_internet">No Internet Connection</string>
+    <string name="no_internet_msg">Please connect to the internet and try again.</string>
+    <string name="developed_by">Developed by: Ibrahim</string>
+
+    <!-- Withdrawal Activity -->
+    <string name="convert_points">Convert your points into money:</string>
+    <string name="Withdrawal">Withdrawal</string>
+    <string name="converter">It is = 0 $</string>
+    <string name="my_balance">My Balance:</string>
+    <string name="minimum_points">* Minimum points to withdrawal is</string>
+    <string name="withdrawal_wallet">PayPal</string>
+    <string name="withdrawal_method">Method:</string>
+    <string name="withdrawal_request">Withdrawal Request</string>
+    <string name="withdrawal_send">Send Withdrawal</string>
+    <string name="email_address">Email Address</string>
+    <string name="your_email">Your Email:</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="success">Success</string>
+    <string name="dont_have_min">You don\'t have the minimum withdrawal!</string>
+    <string name="no_points_enough">You don\'t have points enough!</string>
+
+    <!-- Achievements Activity -->
+    <string name="view_50_video_ads">View 50 video ads</string>
+    <string name="view_100_video_ads">View 100 video ads</string>
+    <string name="spin_50_times">Spin 50 Times</string>
+    <string name="not_completed">Not Completed Yet</string>
+    <string name="completed">Completed</string>
+    <string name="uncompleted">Uncompleted</string>
+
+
+    <!-- Share App Text -->
+    <string name="Share_Text">Best App to Make Money From Your Phone Download it Now: \n</string>
+
+    <!-- content Description -->
+    <string name="close">Close</string>
+    <string name="menu">Menu</string>
+    <string name="logo">Logo</string>
+
+    <!-- Others -->
+    <string name="text">Text</string>
+    <string name="test_text">Hello Text Test \n New Line Here</string>
+    <string name="no_ads">No Ads Now, Try Again!</string>
+    <string name="ads_failed">Ad failed to show!</string>
+    <string name="ads_failed_load">Ad Failed To Load!</string>
+
+
+    <!-- ================= Array ================== -->
+    <string-array name="about_title_array">
+        <item>Spin to Win</item>
+        <item>Watch Video</item>
+        <item>Daily Gift</item>
+        <item>Withdrawal</item>
+    </string-array>
+
+    <string-array name="about_description_array">
+        <item>Your Luck is important here, you will get random points every time spin.</item>
+        <item>Watch unlimited videos as you want everyday to earn more points, if you closed the video before it finished you won\'t get points.</item>
+        <item>Open the app daily to get gift everyday to earn more points.</item>
+        <item>You will got $5 for every 500,000 points you earn. The Payment will send to you within 7–15 days, if you cheat you will be banned.</item>
+    </string-array>
+
+
+    <!-- Strings of Admob Ads -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-2290744468447929~1226934334</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-2290744468447929/8003077749</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-2290744468447929/3537219121</string>
+    <string name="admob_reward_id" translatable="false">ca-app-pub-2290744468447929/4021903464</string>
+
+
+    <!-- Strings of AppLovin MAX Ads -->
+    <string name="appLovin_interstitial_id" translatable="false">123456789</string>
+    <string name="appLovin_rewards_id" translatable="false">123456789</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">spin</string>
+
+    <!-- Scratch -->
+    <string name="play_now">Play Now</string>
+    <string name="scraping">Scraping</string>
+    <string name="scratch_again">Scratch Again</string>
+    <string name="you_won">You Won \n</string>
+    <string name="you_have_won">You have Won:</string>
+    <string name="watch_full_video">Watch Full Video</string>
+    <string name="unlock_reward">To Unlock this Reward Points</string>
+    <string name="add">Add</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="play_again">Play Again</string>
+    <string name="go_home">Go Home</string>
+    <string name="best_score">Best Score</string>
+    <string name="score">Score</string>
+    <string name="game_over">Game Over</string>
+
+</resources>

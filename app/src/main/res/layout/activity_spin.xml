@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_5"
+    tools:context="com.kmkz.xuuDiamondsRBXSkins.activities.SpinActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curve_toolbar_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/close_img"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/close"
+            android:padding="15dp"
+            android:transitionName="imageTransition"
+            app:srcCompat="@drawable/ic_close"
+            app:tint="@color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2"
+            android:text="@string/spin_to_win"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_mxlarge" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/spacing_medium"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+        <com.applovin.mediation.ads.MaxAdView
+            xmlns:maxads="http://schemas.applovin.com/android/1.0"
+            android:id="@+id/MaxAdView"
+            maxads:adUnitId="YOUR_ID_HERE"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/spinBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:text="@string/spin_btn"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/luckyWheel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/nothing_yet"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <com.kmkz.xuuDiamondsRBXSkins.utility.LuckyWheelView
+            android:id="@+id/luckyWheel"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            app:lkwBackgroundColor="@color/colorPrimaryDark"
+            app:lkwTopTextColor="#263238"
+            app:lkwCenterImage="@drawable/wheel2"
+            app:lkwCursor="@drawable/ic_cursor"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

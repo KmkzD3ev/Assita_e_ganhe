@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_game_over"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GameOverActivity"
+    android:background="@drawable/bg_game_over">
+
+
+    <ImageView
+        android:id="@+id/gameOver_label"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:src="@drawable/game_board"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/txt_game_over"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/crying"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/tv_gameOver"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_gameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gameOver_label"
+        android:layout_centerInParent="true"
+        android:text="@string/game_over"
+        android:padding="10dp"
+        android:fontFamily="@font/pixel3"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="45sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_score_over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/score"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/txt_best_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pixel2"
+            android:text="@string/best_score"
+            android:textColor="@color/amber_900"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/gameOver_label"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/goHome"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/go_home"
+            android:textSize="15sp"
+            android:fontFamily="@font/pixel3"
+            android:textColor="@color/grey_100_"
+            android:background="@drawable/btn_game"
+            android:layout_marginEnd="10dp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/playAgain"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/play_again"
+            android:textSize="15sp"
+            android:fontFamily="@font/pixel3"
+            android:textColor="@color/grey_100_"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_game"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id"/>
+
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/MaxAdView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        maxads:adUnitId="YOUR_AD_UNIT_ID" />
+
+</RelativeLayout>

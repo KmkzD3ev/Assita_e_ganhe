@@ -1,0 +1,39 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_logo.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/bg_main.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/bg_menu.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/bg_points.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/button_style.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/curve_toolbar_bg.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/ic_arrow_forward.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/ic_refresh.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/shape_circle.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/shape_round_corner.xml" value="0.1205" />
+        <entry key="app/src/main/res/font/bb.xml" value="0.22685185185185186" />
+        <entry key="app/src/main/res/layout/action_bar.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/activity_daily_gift.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/activity_instructions.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_spin.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_stepper_wizard_light.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/activity_withdrawal.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/dialog_withdrawal.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/item_stepper_wizard.xml" value="0.2223731884057971" />
+        <entry key="app/src/main/res/layout/no_internet.xml" value="0.19610507246376813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

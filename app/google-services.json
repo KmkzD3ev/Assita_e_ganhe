@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "784253156972",
+    "firebase_url": "https://xuu-diamonds-rbx-skins-c9c81-default-rtdb.firebaseio.com",
+    "project_id": "xuu-diamonds-rbx-skins-c9c81",
+    "storage_bucket": "xuu-diamonds-rbx-skins-c9c81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784253156972:android:b34d25d8c3dfdca6742249",
+        "android_client_info": {
+          "package_name": "com.admin.xuuDiamondsRBXSkinsAdm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBJnMZgymbFZCizu-JbuDNiPyfikKRsv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784253156972:android:87aae02bb00d78c0742249",
+        "android_client_info": {
+          "package_name": "com.example.xuuDiamondsRBXSkins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBJnMZgymbFZCizu-JbuDNiPyfikKRsv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784253156972:android:4d56070ab330f474742249",
+        "android_client_info": {
+          "package_name": "com.kmkz.xuuDiamondsRBXSkins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBJnMZgymbFZCizu-JbuDNiPyfikKRsv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

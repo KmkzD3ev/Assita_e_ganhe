@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kmkz.xuuDiamondsRBXSkins.activities.DailyGiftActivity"
+    android:background="@color/grey_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curve_toolbar_bg"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/close_img"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/ic_close"
+                    android:padding="15dp"
+                    app:tint="@color/white"
+                    android:layout_gravity="end"
+                    android:transitionName="imageTransition"
+                    android:contentDescription="@string/close" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font2"
+                    android:text="@string/daily_gift"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_mxlarge" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/get_your_daily_gift"
+                        android:textSize="19sp"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/font2"/>
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/gift"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/daily_gift" />
+
+
+                    <Button
+                        android:id="@+id/Gift_Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/get_my_gift"
+                        android:layout_gravity="center"
+                        android:background="@drawable/border"
+                        android:padding="25dp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="40dp"/>
+
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id" />
+
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/MaxAdView"
+        maxads:adUnitId="YOUR_ID_HERE"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

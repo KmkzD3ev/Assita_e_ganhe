@@ -1,0 +1,48 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_background</item>
+        <item name="colorPrimaryDark">@color/color_background</item>
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="EditText.Blue" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="EditText.Flat.Grey" parent="@style/AppTheme">
+        <item name="android:textColorHint">@color/grey_40</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">@color/grey_90</item>
+    </style>
+
+    <style name="EditText.Flat.Grey.Small" parent="@style/AppTheme">
+        <item name="android:textColorHint">@color/grey_40</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/grey_90</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define um fundo personalizado -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+        <!-- Remove a sombra da barra de status -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- Remove animações de transição para maior velocidade -->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+
+    <style name="EditText.Grey" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/grey_60</item>
+        <item name="colorControlHighlight">@color/grey_60</item>
+        <item name="colorControlNormal">@color/grey_40</item>
+    </style>
+
+
+</resources>
