@@ -10,14 +10,14 @@ applovin {
 
 android {
     namespace 'com.kmkz.xuuDiamondsRBXSkins'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.kmkz.xuuDiamondsRBXSkins"
         minSdk 21
-        targetSdk 34
-        versionCode 9
-        versionName "3.0.1"
+        targetSdk 36
+        versionCode 10
+        versionName "3.0.2 "
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,6 +52,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.firebase:firebase-messaging'
     implementation 'com.google.firebase:firebase-config'
+
+
+    // Google Play Billing Library
+    implementation 'com.android.billingclient:billing:7.0.0'
 
     implementation 'com.applovin:applovin-sdk:13.0.1'                           // Applovin
     implementation 'com.applovin.mediation:unityads-adapter:4.12.4.0'

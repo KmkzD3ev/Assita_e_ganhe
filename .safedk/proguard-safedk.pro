@@ -1,4 +1,9 @@
--keep class androidx.** { *; }
+-keep class androidx.multidex.** { *; }
+-keep class androidx.browser.customtabs.CustomTabsIntent { *; }
+-keep class androidx.** { 
+*** startActivityForResult(***);
+*** startActivity(***);
+}
 -keep class android.support.multidex.** { *; }
 -keep class android.support.v4.app.** { *; }
 -keep class com.google.android.gms.location.FusedLocationProviderApi { *; }
@@ -25,5 +30,16 @@
 -keep class com.five_corp.** { *; }
 -keep class com.bytedance.** { *; }
 -keep class com.smaato.** { *; }
+-keep class com.explorestack.** { *; }
+-keep class io.bidmachine.** { *; }
+-keep class com.pubmatic.** { *; }
+-keep class com.chartboost.** { *; }
+-keep class com.mobilefuse.** { *; }
+-keep class com.verve.** { *; }
+-keep class net.pubnative.** { *; }
 -keep class com.safedk.** { *; }
 -keep class com.applovin.quality.** { *; }
+-keep class com.braze.** { *; }
+-keep class androidx.media3.common.Player {
+	void release();
+}
